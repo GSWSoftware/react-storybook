@@ -34,6 +34,8 @@
     "extends": "react-app"
   },
   "dependencies": {
+    "@styled-icons/heroicons-outline": "^10.19.0",
+    "@styled-icons/material": "^10.18.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.2",
     "@testing-library/user-event": "^12.1.4",
