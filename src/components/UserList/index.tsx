@@ -17,7 +17,7 @@ const UserRow: React.FC<UserProps> = ({ userName, isBot }) => {
   )
 }
 
-const UserList: React.FC = () => {
+export const UserList: React.FC = () => {
   return (
     <Container>
       <Status>Online: Available</Status>
@@ -43,5 +43,3 @@ const UserList: React.FC = () => {
     </Container>
   )
 }
-
-export default UserList

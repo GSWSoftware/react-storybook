@@ -11,7 +11,7 @@ import {
   SettingsIcon
 } from './styles'
 
-const UserInfo: React.FC = () => {
+export const UserInfo: React.FC = () => {
   return (
     <Container>
       <Profile>
@@ -29,5 +29,3 @@ const UserInfo: React.FC = () => {
     </Container>
   )
 }
-
-export default UserInfo

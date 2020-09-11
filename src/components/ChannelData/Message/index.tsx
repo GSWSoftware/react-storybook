@@ -18,7 +18,7 @@ interface MessageProps {
   hasMention?: boolean
 }
 
-const Message: React.FC<MessageProps> = ({
+export const Message: React.FC<MessageProps> = ({
   author,
   content,
   date,
@@ -39,5 +39,3 @@ const Message: React.FC<MessageProps> = ({
     </Container>
   )
 }
-
-export default Message

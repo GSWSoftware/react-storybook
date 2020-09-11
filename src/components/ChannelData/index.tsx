@@ -8,7 +8,7 @@ import {
   InputIcon
 } from './styles'
 
-const ChannelData: React.FC = () => {
+export const ChannelData: React.FC = () => {
   return (
     <Container>
       <MessagesContainer>
@@ -121,5 +121,3 @@ const ChannelData: React.FC = () => {
     </Container>
   )
 }
-
-export default ChannelData

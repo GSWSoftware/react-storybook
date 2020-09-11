@@ -8,7 +8,7 @@ import {
   Description
 } from './styles'
 
-const ChannelInfo: React.FC = () => {
+export const ChannelInfo: React.FC = () => {
   return (
     <Container>
       <HashtagIcon />
@@ -20,5 +20,3 @@ const ChannelInfo: React.FC = () => {
     </Container>
   )
 }
-
-export default ChannelInfo

@@ -13,7 +13,7 @@ import {
   SettingsIcon
 } from './styles'
 
-const ChannelList: React.FC = () => {
+export const ChannelList: React.FC = () => {
   return (
     <Container>
       <ListItem>
@@ -57,5 +57,3 @@ const ChannelList: React.FC = () => {
     </Container>
   )
 }
-
-export default ChannelList

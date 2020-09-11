@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Separator } from './styles'
 import ServerButton from '../ServerButton'
 
-const ServerList: React.FC = () => {
+export const ServerList: React.FC = () => {
   return (
     <Container>
       <ServerButton isHome mentions={2} />
@@ -22,5 +22,3 @@ const ServerList: React.FC = () => {
     </Container>
   )
 }
-
-export default ServerList

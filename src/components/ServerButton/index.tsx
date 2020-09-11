@@ -9,7 +9,7 @@ export interface Props {
   mentions?: number
 }
 
-const ServerButton: React.FC<Props> = ({
+export const ServerButton: React.FC<Props> = ({
   selected,
   hasNotifications,
   isHome,
@@ -32,5 +32,3 @@ const ServerButton: React.FC<Props> = ({
     </StyledServerButton>
   )
 }
-
-export default ServerButton
