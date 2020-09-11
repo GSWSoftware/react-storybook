@@ -13,3 +13,7 @@ export const LayoutV1 = () => (
     <GlobalStyle />
   </>
 )
+
+LayoutV1.parameters = {
+  jest: ['layout.spec.tsx']
+}

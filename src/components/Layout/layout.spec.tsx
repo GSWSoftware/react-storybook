@@ -2,8 +2,14 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import { Layout } from '.'
 
-test('renders learn react link', () => {
-  const { getByText } = render(<Layout />)
-  const linkElement = getByText(/porradaria/i)
-  expect(linkElement).toBeDefined()
+describe('MAIN LAYOUT', () => {
+  it('should render the main layout and all the sub screens', async () => {
+    const { getByText } = render(<Layout />)
+    const linkElement = getByText(/porradaria/i)
+    expect(linkElement).toBeDefined()
+  })
+
+  it('true should be true', () => {
+    expect(true).toBe(false)
+  })
 })
