@@ -1,5 +1,5 @@
 import React from 'react'
-import Message, { Mention } from './Message'
+import { Message, Mention } from './Message'
 import {
   Container,
   MessagesContainer,
