@@ -1,29 +1,25 @@
 {
-  "name": "storybook",
+  "name": "@support-monorepo/storybook",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "deps:upgrade": "ncu -u",
-    "pre:storybook": "build-storybook -s public",
+    "prestart": "build-storybook -s public",
     "start": "start-storybook -p 9009 -s public"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "devDependencies": {
-    "@storybook/addon-actions": "^6.0.21",
-    "@storybook/addon-essentials": "^6.0.21",
-    "@storybook/addon-links": "^6.0.21",
-    "@storybook/addons": "^6.0.21",
-    "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/react": "^6.0.21"
+  "dependencies": {
+    "react-scripts": "^4.0.1"
   }
 }
